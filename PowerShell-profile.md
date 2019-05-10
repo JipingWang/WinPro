@@ -8,12 +8,12 @@ Custom PowerShell start settings
 ```powershell
 cls
 Set-Location ~/source/repos
-pwd
+echo (Split-Path -Path (Get-Location))
 
 function prompt{
-    $p = Split-Path -Leaf -Path (Get-Location)
-    # "$p> "
     "PS> "
-    #"$pwd".Split('\')[-1] + '> '
+
+    #$p = Split-Path -Leaf -Path (Get-Location)
+    #"$p> "
 }
 ```
