@@ -6,14 +6,19 @@ Custom PowerShell start settings
 
 # edit the file ` code $profile `
 ```powershell
-cls
-Set-Location ~/source/repos
-echo (Split-Path -Path (Get-Location))
+
 
 function prompt{
-    "PS> "
+    ## simple version
+    $prompt = "PS"
+    
+    ## or just current directory name (not full path)
+    #$prompt = Split-Path -Leaf -Path (Get-Location)
 
-    #$p = Split-Path -Leaf -Path (Get-Location)
-    #"$p> "
+    "$prompt> "
 }
+
+cls
+'' + (pwd)
+
 ```
