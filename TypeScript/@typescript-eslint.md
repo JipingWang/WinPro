@@ -1,5 +1,6 @@
 TypeScript lint rules
 =====
+### file: .eslintrc.js
 
 ```JavaScript
     "rules": {
