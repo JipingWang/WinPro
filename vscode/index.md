@@ -6,4 +6,5 @@ Visual Studio Code (vscode) common settings
     * search keyword '**Eol**'
     * set [Text Editor > Files] = '\n'
     * set [Extensions > Prettier - Code] = 'lf'
-2. 
+2. disable folders auto expanded (node_modules too many)
+>  "explorer.autoReveal": false
