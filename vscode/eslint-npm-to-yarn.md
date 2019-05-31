@@ -18,5 +18,5 @@ Use VS code UI settings editor, search "eslint package manager", change the opti
 
 ### Picture
 
-<img src="vscode-eslint-yarn.png" 
+<img src="eslint-npm-to-yarn.png" 
 alt="vscode-eslint-yarn" width="877" height="384" border="10" />
