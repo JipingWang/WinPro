@@ -1,12 +1,12 @@
 ### Custom keyboard shortcut for "Terminal: Clear" command in VS Code
 
-In Visual Studio Code (VS-Code) PowerShell terminal window, you can use shortcut key (Ctrl+L) to clear current screen. It cleans current terminal screen, but the output buffer is not cleaned, so if you scrool mouse up, they are all back.
+In Visual Studio Code (VS-Code) PowerShell terminal window, you can use shortcut key (Ctrl+L) to clear current screen. But the output buffer is not cleared, so if you scroll mouse up, they are all back.
 
 There are 2 ways to clear output buffer and screen:
   - PowerShell command: cls / clear/ Clear / Clear() / [System.Console]::Clear(); 
   - VS-Code command palette - Terminal: Clear
 
-It would be better to use a shortkey to achieve the above command. Here is how, click Menu:
+Here is how to set a cusomer shortcut key for that, click Menu:
 
 -  File > Preferences > Keyboard Shortcuts (Ctrl K, S)
 - search keyword: terminal clear
